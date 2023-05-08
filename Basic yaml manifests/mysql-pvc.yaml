@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+#A PersistentVolumeClaim (PVC) is a request for storage that can be used by a pod. 
+#The underlying storage is provided by a PersistentVolume (PV).

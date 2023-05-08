@@ -1,8 +1,11 @@
+# 1. Task 
+Create a Kubernetes deployment manifest file for a simple Nginx web server application that uses two replicas and has resource requests
+
 # 1. Task
-Write a Dockerfile that creates an image for a Node.js application, copies the application files into the image, and runs the application on port 3000.
+Write a Kubernetes manifest file that defines a deployment and a service for a Node.js application, specifies the image and port for the deployment, and maps the service to port 80.
 
 # 2. Task
-Write a Docker Compose file that defines a service for a MongoDB database and a service for a Node.js application, and specifies the environment variables and volumes for each service.
+Write a Kubernetes Helm chart that packages a set of Kubernetes manifests for a Node.js application and allows the user to configure the image and port for the deployment.
 
 # 3. Task
 With Docker Compose let's do Nginx as a reverse proxy to serve a Flask application
